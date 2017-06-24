@@ -1,9 +1,10 @@
 /**
- * Created by zhuxiaoyao on 2017/6/24.
+ * Created by zhuxiaoyao on 2017/6/25.
+ * sql test
  */
-
+package car;
 import java.sql.*;
-public class main {
+public class Main {
     public static void main(String [] args){
         String driverName="com.microsoft.sqlserver.jdbc.SQLServerDriver";
         String dbURL="jdbc:sqlserver://localhost:1433;DatabaseName=Text";
