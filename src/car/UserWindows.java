@@ -50,10 +50,10 @@ public class UserWindows extends JFrame implements ActionListener{
         }
         public void actionPerformed(ActionEvent a){    // 按钮事件监听
             if(a.getActionCommand().equals("查询")){
-                new About();
+                new Demand();
             }
             if(a.getActionCommand().equals("订票")){
-                new About();
+                new Reserve();
             }
             if(a.getActionCommand()=="退出"){
                 System.exit(0);

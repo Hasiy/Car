@@ -1,0 +1,133 @@
+package car;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.event.*;
+import java.sql.*;
+/**
+ * Created by zhuxiaoyao on 2017/6/26.
+*/
+    public class AddUser  extends JFrame implements ActionListener{
+        //	/ 添加 通过
+        private static final long serialVersionUID = 1L;
+        JLabel lNo,lName,lId,lPassword,lMobile;
+        JTextField tNo,tName,tId,tPassword,tMobile;
+        JButton bAdd,bBack;
+        JPanel panelMain,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9,panel10;
+
+        public AddUser(){
+            super("AddUser");
+            Image img=Toolkit.getDefaultToolkit().getImage(car.AddUser.class.getResource("1.png"));
+            setIconImage(img);
+
+//            setSize(700,470);
+//            setLocation(100,150);
+//            JLabel label = new JLabel(new ImageIcon(car.AddUser.class.getResource("ManagerBackground.jpg")));
+//            label.setBounds(2,0,this.getWidth(), this.getHeight());
+//            JPanel imagePanel = (JPanel) this.getContentPane();
+//            imagePanel.setOpaque(false);
+//            this.getLayeredPane().add(label,new Integer(Integer.MIN_VALUE));
+//            setLayout(null);// 必须要有  设置按键布局
+            setBounds(200,100,720,510);	 // 窗口位置 大小
+            Container c = getContentPane();
+            UIManager.put("Button.select",new Color(44, 162, 200)); //按钮按下后的颜色
+
+            panelMain=new JPanel();
+            JPanel panelMain=new JPanel(new GridLayout(7,1));
+            this.setContentPane(panelMain);
+
+            lNo=new JLabel("编号");
+            lName=new JLabel("姓名");
+            lPassword=new JLabel("密码");
+            lId=new JLabel("身份证号");
+            lMobile=new JLabel("手机号");
+            tNo=new JTextField(10);
+            tName=new JTextField(10);
+            tId=new JTextField(10);
+            tPassword=new JTextField(10);
+            tMobile=new JTextField(10);
+
+            panel1=new JPanel();
+            panel1.add(lNo);panel1.add(tNo);
+            panel2=new JPanel();
+            panel2.add(lName);panel2.add(tName);
+            panel3=new JPanel();
+            panel3.add(lPassword);panel3.add(tPassword);
+            panel4=new JPanel();
+            panel4.add(lId);panel4.add(tId);
+            panel5=new JPanel();
+            panel5.add(lMobile);panel5.add(tMobile);
+
+            bAdd=new JButton("添加");
+            bAdd.setFont(new java.awt.Font("宋体", 1, 20));// 设置按钮的字体大小 颜按钮色
+            bAdd.setBackground(new Color(94, 200, 172));
+            bAdd.setBorder(BorderFactory.createRaisedBevelBorder());
+            bAdd.addActionListener(this);
+
+            bBack=new JButton("返回");
+            bBack.setFont(new java.awt.Font("宋体", 1, 20));// 设置按钮的字体大小 颜按钮色
+            bBack.setBackground(new Color(94, 200, 172));
+            bBack.setBorder(BorderFactory.createRaisedBevelBorder());
+            bBack.addActionListener(this);
+
+            panel6=new JPanel();
+            panel6.add(bAdd);
+            panel7=new JPanel();
+            panel7.add(bBack);
+            panelMain.add(panel1);
+            panelMain.add(panel2);
+            panelMain.add(panel3);
+            panelMain.add(panel4);
+            panelMain.add(panel5);
+            panelMain.add(panel6);
+            panelMain.add(panel7);
+
+            setVisible(true);
+        }
+        public void actionPerformed(ActionEvent ae){
+//            if(ae.getSource()==bBack){
+//                dispose();
+//            }
+//            else if(ae.getSource()==bAdd){
+//                if(tNo.getText().equals("") || tName.getText().equals("") || tSex.getText().equals("")||tAge.getText().equals("")||tAddress.getText().equals("")||tIdentication.getText().equals("")||tWorkPlace.getText().equals("")||tFrom.getText().equals("")||tRoomNo.getText().equals("")||tWillIn.getText().equals("")||tIn.getText().equals("")||tCash.getText().equals("")){
+//                    JOptionPane.showMessageDialog(null,"添加信息不能为空!","提示",JOptionPane.ERROR_MESSAGE);
+//                }
+//                else{
+//                    String a1,a2,a3,a4,a5;
+//                    int r;
+////                    a1="'"+tName.getText().trim()+"'";
+//                    a2="'"+tSex.getText().trim()+"'";
+//                    a3="'"+tAge.getText().trim()+"'";
+//                    a4="'"+tIdentication.getText().trim()+"'";
+////                    a5="'"+tAddress.getText().trim()+"'";
+//
+//                    int i = Integer.valueOf(tCash.getText()).intValue();
+//                    String b="insert into UserInfo(客房编号,姓名,性别,年龄,身份证号码,) VALUES ("+a8+","+a1+","+a2+","+a3+","+a4+","+a5+","+i+")";
+//                    Connection conn;
+//                    PreparedStatement stat;
+//                    try{
+//                        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//                        conn=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=Text","sa","512512");
+//                        stat=conn.prepareStatement(b);
+//                        r=stat.executeUpdate();
+//                        if(r<1){
+//                            JOptionPane.showMessageDialog(null,"添加失败!","提示",JOptionPane.ERROR_MESSAGE);
+//                        }
+//                        else{
+//                            JOptionPane.showMessageDialog(null,"添加成功!","提示",JOptionPane.INFORMATION_MESSAGE);
+//                        }
+//                        conn.close();
+//                    }
+//                    catch(Exception e){
+//                        e.printStackTrace();
+//                    }
+//                }
+//            }
+        }
+        public static void main(String[] args) {
+            new AddUser();
+        }
+
+
+}

@@ -90,7 +90,7 @@ import java.sql.*;
                         if (rs.next()) {
                             this.dispose();
 
-                            new Main();  /*  Todo */
+                            new ManagerWindows();
 						rs.close();
                             JOptionPane.showMessageDialog(null, "  欢迎登陆系统!", "提示", JOptionPane.INFORMATION_MESSAGE);
                         } else
@@ -105,7 +105,6 @@ import java.sql.*;
                 this.dispose();
             }
         }
-
         public static void main(String[] args) throws SQLException {
             new car.ManagerLogin();
         }

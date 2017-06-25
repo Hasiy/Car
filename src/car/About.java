@@ -14,12 +14,13 @@ public class About extends JFrame implements ActionListener
     JButton b_yes;
     JPanel pan1,pan2,pan3,pan4,pan5,mainpan;
     public About(){
-        super("关于我们的系统");
+        super("About Auto advance ticketing system");
 
         Image img=Toolkit.getDefaultToolkit().getImage(car.About.class.getResource("1.png"));
         setIconImage(img);
         mainpan=new JPanel();
         this.getContentPane().add(mainpan);
+
         mainpan.setLayout(new GridLayout(5,1));
         l_name=new JLabel("Name:Auto advance ticketing system");
         l_edition=new JLabel("Ver:2.3.3");

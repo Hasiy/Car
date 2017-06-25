@@ -1,6 +1,5 @@
 package car;
 import java.awt.*;
-import javax.jnlp.ServiceManager;
 import javax.swing.*;
 import java.awt.event.*;
 /**
@@ -14,6 +13,7 @@ public class ManagerWindows extends JFrame implements ActionListener{
         setTitle("Auto advance ticketing system");
         Image img=Toolkit.getDefaultToolkit().getImage(car.ManagerWindows.class.getResource("1.png"));
         setIconImage(img);
+
         setSize(700,470);
         setLocation(100,150);
         JLabel label = new JLabel(new ImageIcon(car.ManagerWindows.class.getResource("ManagerBackground.jpg")));
@@ -60,11 +60,11 @@ public class ManagerWindows extends JFrame implements ActionListener{
         if(a.getActionCommand().equals("用户管理")){
             new UserManagement();
         }
-        if(a.getActionCommand().equals("站点管理")){
+        if(a.getActionCommand().equals("车次管理")){
             new SiteManagement();
         }
         if(a.getActionCommand().equals("车次管理")){
-            new ServiceManagement();
+            new SiteManagement();
         }
         if(a.getActionCommand()=="退出"){
             System.exit(0);
