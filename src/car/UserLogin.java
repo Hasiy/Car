@@ -2,15 +2,13 @@ package car;
 /**
  * Created by zhuxiaoyao on 2017/6/25.
  */
-
 import javax.swing.*;
 import java.awt.Color;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.*;
 import java.sql.*;
-
-public class UserLogin extends JFrame implements ActionListener {
+ public class UserLogin extends JFrame implements ActionListener {
     //	 登录c
     private static final long serialVersionUID = 1L;
     //定义
@@ -25,7 +23,6 @@ public class UserLogin extends JFrame implements ActionListener {
         super("Login User");
         Image img = Toolkit.getDefaultToolkit().getImage(car.UserLogin.class.getResource("1.png"));
         setIconImage(img);
-
         UIManager.put("Button.select", new Color(100, 200, 100));
         setLayout(null);
         panelMain = new JPanel();
@@ -60,8 +57,8 @@ public class UserLogin extends JFrame implements ActionListener {
         bCancel.setBackground(Color.white);
         bCancel.setBorder(BorderFactory.createRaisedBevelBorder());
         bCancel.addActionListener(this);
-        bLogin.setBounds(380, 480, 50, 50);
-        bCancel.setBounds(390, 480, 50, 50);
+        bLogin.setBounds(50, 50, 10, 50);
+        bCancel.setBounds(50, 50, 50, 50);
         panel4.add(bLogin);
         panel4.add(bCancel);
         //子面板添加
@@ -95,7 +92,7 @@ public class UserLogin extends JFrame implements ActionListener {
                     if (rs.next()) {
                         this.dispose();
 //
-                        new Main();  /*   */
+                        new UserWindows();
 //							rs.close();
                         JOptionPane.showMessageDialog(null, "  欢迎登陆系统!", "提示", JOptionPane.INFORMATION_MESSAGE);
                     } else
