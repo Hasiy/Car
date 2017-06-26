@@ -30,11 +30,11 @@ public class UserWindows extends JFrame implements ActionListener{
             b1.setBounds(322, 200, 80, 40); // 设置按钮的位置与大小
             b2.setBounds(322, 265, 80, 40);
             b3.setBounds(322, 330, 80, 40);
-            b1.setFont(new java.awt.Font("宋体", 1, 20));// 设置按钮的字体大小 颜按钮色
+            b1.setFont(new java.awt.Font("楷体", 1, 20));// 设置按钮的字体大小 颜按钮色
             b1.setBackground(Color.white);
-            b2.setFont(new java.awt.Font("宋体", 1, 20));
+            b2.setFont(new java.awt.Font("楷体", 1, 20));
             b2.setBackground(Color.white);
-            b3.setFont(new java.awt.Font("宋体", 1, 20));
+            b3.setFont(new java.awt.Font("楷体", 1, 20));
             b3.setBackground(Color.white);
             b1.setBorder(BorderFactory.createRaisedBevelBorder()); //设置按钮样式 凸
             b2.setBorder(BorderFactory.createRaisedBevelBorder());

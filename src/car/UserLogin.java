@@ -9,7 +9,7 @@ import java.awt.Toolkit;
 import java.awt.event.*;
 import java.sql.*;
  public class UserLogin extends JFrame implements ActionListener {
-    //	 登录c
+    //	 登录
     private static final long serialVersionUID = 1L;
     //定义
     JLabel lbUser, lbPass, lbTitle;
@@ -93,7 +93,7 @@ import java.sql.*;
                         this.dispose();
 //
                         new UserWindows();
-//							rs.close();
+                        rs.close();
                         JOptionPane.showMessageDialog(null, "  欢迎登陆系统!", "提示", JOptionPane.INFORMATION_MESSAGE);
                     } else
                         JOptionPane.showMessageDialog(null, "用户或密码错误", "提示", JOptionPane.ERROR_MESSAGE);

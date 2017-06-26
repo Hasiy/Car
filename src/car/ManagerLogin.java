@@ -20,7 +20,7 @@ import java.sql.*;
 
         public ManagerLogin() {
             //主面板
-            super("Login User");
+            super("Manager User");
             Image img = Toolkit.getDefaultToolkit().getImage(car.ManagerLogin.class.getResource("1.png"));
             setIconImage(img);
             UIManager.put("Button.select", new Color(100, 200, 100));
