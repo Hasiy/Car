@@ -76,7 +76,7 @@ import java.sql.*;
             //登陆按钮
             if (ae.getSource() == bLogin) {
                 if (tUser.getText().equals("") || password.getPassword().equals("")) {
-                    JOptionPane.showMessageDialog(null, "请输入");
+                    JOptionPane.showMessageDialog(null, "请输入","提示",JOptionPane.ERROR_MESSAGE);
                 } else {
                     Connection conn;
                     Statement stat;

@@ -27,7 +27,7 @@ public class About extends JFrame implements ActionListener
         l_text=new JLabel("Build id: 20170625-2352");
         l_warning=new JLabel("Powered by Hasiy");
         l_contact=new JLabel("2017 Hasiy Inc. ");
-        b_yes=new JButton("确定");
+        b_yes=new JButton("OK");
         b_yes.setFont(new java.awt.Font("楷体", 1, 15));// 设置按钮的字体大小 颜按钮色
         b_yes.setBackground(Color.white);
         b_yes.setBorder(BorderFactory.createRaisedBevelBorder());
@@ -48,7 +48,7 @@ public class About extends JFrame implements ActionListener
         mainpan.add(pan3);
         mainpan.add(pan4);
         mainpan.add(pan5);
-        setBounds(400,200,380,220);
+        setBounds(400,200,380,240);
         setResizable(false);
         setVisible(true);
     }

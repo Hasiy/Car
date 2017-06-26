@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5cd841e-dc90-46fc-a6b6-08f51232e6cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/car/AddTicket.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/car/Demand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/car/Reserve.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/Login.jpg" afterPath="$PROJECT_DIR$/src/car/Login.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/About.java" afterPath="$PROJECT_DIR$/src/car/About.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/AddTicket.java" afterPath="$PROJECT_DIR$/src/car/AddTicket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/AddUser.java" afterPath="$PROJECT_DIR$/src/car/AddUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/Login.java" afterPath="$PROJECT_DIR$/src/car/Login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ManagerLogin.java" afterPath="$PROJECT_DIR$/src/car/ManagerLogin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ManagerWindows.java" afterPath="$PROJECT_DIR$/src/car/ManagerWindows.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/UserLogin.java" afterPath="$PROJECT_DIR$/src/car/UserLogin.java" />
@@ -98,12 +102,12 @@
       <file leaf-file-name="UserWindows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/UserWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="-696">
+              <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2639#2640#0" expanded="true" />
-                <element signature="e#2680#2681#0" expanded="true" />
+                <element signature="e#3465#3466#0" expanded="true" />
+                <element signature="e#3506#3507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,71 +116,77 @@
       <file leaf-file-name="ManagerWindows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/ManagerWindows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2845#2846#0" expanded="true" />
-                <element signature="e#2881#2882#0" expanded="true" />
+                <element signature="e#4745#4746#0" expanded="true" />
+                <element signature="e#4781#4782#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTicket.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="15" selection-end-line="95" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1498496610226" expanded="true" signature="3826:3866" ph="select * fro... UserInfo" />
+                <marker date="1498496610226" expanded="true" signature="3826:3904" ph="select * fro... UserInfo" />
+                <marker date="1498496610226" expanded="true" signature="3826:3908" ph="select * fro... UserInfo" />
+                <marker date="1498496610226" expanded="true" signature="3826:3910" ph="select * fro... UserInfo" />
+                <marker date="1498496610226" expanded="true" signature="3826:3923" ph="select * fro... UserInfo" />
+                <marker date="1498496610226" expanded="true" signature="3826:3925" ph="select * fro... UserInfo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/ManagerLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1719">
+              <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1498496850437" expanded="true" signature="3503:3606" ph="select * fro... ManagerInfo" />
+                <marker date="1498496850437" expanded="true" signature="3503:3653" ph="select * fro... ManagerInfo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5552#5553#0" expanded="true" />
+                <element signature="e#5589#5590#0" expanded="true" />
+                <marker date="1498496610232" expanded="true" signature="4436:4505" ph="insert into UserInfo... " />
+                <marker date="1498496610232" expanded="true" signature="4436:4510" ph="insert into UserInfo... " />
+                <marker date="1498496610232" expanded="true" signature="4436:4539" ph="insert into UserInfo... " />
+                <marker date="1498496610232" expanded="true" signature="4436:4540" ph="insert into 客人信息... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTicket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/AddTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="621">
+              <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5663#5664#0" expanded="true" />
-                <element signature="e#5706#5707#0" expanded="true" />
-                <marker date="1498434100093" expanded="true" signature="4493:4640" ph="insert into UserInfo... " />
-                <marker date="1498434100093" expanded="true" signature="4493:4647" ph="insert into UserInfo... " />
+                <marker date="1498484676216" expanded="true" signature="4675:4827" ph="insert into TrainNumberTable... " />
+                <marker date="1498484676216" expanded="true" signature="4675:4836" ph="insert into TrainNumberTable... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="About.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/About.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/SiteManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/UserManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,12 +202,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>宋体</find>
       <find>lMobile</find>
+      <find>宋体</find>
+      <find>黑体</find>
     </findStrings>
     <replaceStrings>
-      <replace>楷体</replace>
       <replace>lDepartureTime</replace>
+      <replace>黑体</replace>
+      <replace>楷体</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -218,14 +230,15 @@
         <option value="$PROJECT_DIR$/src/car/Main.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2542b9c0-8da8-4eb4-bca5-7304dccccb86/console.sql" />
         <option value="$PROJECT_DIR$/src/car/LoginMaster.java" />
-        <option value="$PROJECT_DIR$/src/car/Login.java" />
         <option value="C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
         <option value="/95218551/2542b9c0-8da8-4eb4-bca5-7304dccccb86/database/car/schema/dbo/view/View_1.sql" />
-        <option value="$PROJECT_DIR$/src/car/ManagerWindows.java" />
         <option value="$PROJECT_DIR$/src/car/UserWindows.java" />
+        <option value="$PROJECT_DIR$/src/car/ManagerWindows.java" />
+        <option value="$PROJECT_DIR$/src/car/Login.java" />
         <option value="$PROJECT_DIR$/src/car/About.java" />
-        <option value="$PROJECT_DIR$/src/car/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/car/AddTicket.java" />
+        <option value="$PROJECT_DIR$/src/car/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/car/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/car/AddUser.java" />
         <option value="$PROJECT_DIR$/src/car/ManagerLogin.java" />
       </list>
@@ -238,8 +251,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="23" />
+    <option name="width" value="1936" />
+    <option name="height" value="1065" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -345,9 +360,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration default="false" name="ManagerLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.ManagerLogin" />
+  <component name="RunManager" selected="Application.AddUser">
+    <configuration default="false" name="AddTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.AddTicket" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Car" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="About" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.About" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Car" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.UserLogin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -374,36 +417,8 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ManagerWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.ManagerWindows" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Car" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.UserWindows" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Car" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.UserLogin" />
+    <configuration default="false" name="ManagerLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.ManagerLogin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -539,19 +554,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Login" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ManagerLogin" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AddUser" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ManagerWindows" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UserWindows" />
-      <item index="5" class="java.lang.String" itemvalue="Application.UserLogin" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AddTicket" />
+      <item index="2" class="java.lang.String" itemvalue="Application.About" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UserLogin" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AddUser" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ManagerLogin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UserLogin" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AddUser" />
         <item index="1" class="java.lang.String" itemvalue="Application.ManagerLogin" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UserWindows" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ManagerWindows" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AddUser" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UserLogin" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddTicket" />
+        <item index="4" class="java.lang.String" itemvalue="Application.About" />
       </list>
     </recent_temporary>
     <configuration default="true" type="Application" factoryName="应用程序">
@@ -643,7 +658,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="23" width="1936" height="1065" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -652,7 +667,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0969163" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07929515" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11895161" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1277533" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14376321" sideWeight="0.49577805" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16754757" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="790" y="151" width="340" height="808" />
@@ -660,7 +675,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19903433" sideWeight="0.504222" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18832599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18722467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,36 +755,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/car/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/95218551/2542b9c0-8da8-4eb4-bca5-7304dccccb86/car.dbo.ManagerInfo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -782,11 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,14 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/UserManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/95218551/2542b9c0-8da8-4eb4-bca5-7304dccccb86/car.dbo.UserInfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1070,11 +1048,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/95218551/2542b9c0-8da8-4eb4-bca5-7304dccccb86/car.dbo.TicketInfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="%%physloc%%" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/SiteManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/UserWindows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,94 +1099,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/About.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="1058">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
+    <entry file="file://$PROJECT_DIR$/src/car/UserManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="96" column="47" lean-forward="true" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5148#5149#0" expanded="true" />
-            <element signature="e#5185#5186#0" expanded="true" />
-            <marker date="1498435501798" expanded="true" signature="4031:4100" ph="insert into UserInfo... " />
-            <marker date="1498435501798" expanded="true" signature="4031:4105" ph="insert into UserInfo... " />
-            <marker date="1498435501798" expanded="true" signature="4031:4134" ph="insert into UserInfo... " />
-            <marker date="1498435501798" expanded="true" signature="4031:4135" ph="insert into 客人信息... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/ManagerLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498436045235" expanded="true" signature="3472:3622" ph="select * fro... ManagerInfo" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/ManagerWindows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
+            <element signature="e#4745#4746#0" expanded="true" />
+            <element signature="e#4781#4782#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/UserWindows.java">
+    <entry file="file://$PROJECT_DIR$/src/car/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2639#2640#0" expanded="true" />
-            <element signature="e#2680#2681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498432924214" expanded="true" signature="3214:3361" ph="select * fro... UserInfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/AddTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="621">
+          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5663#5664#0" expanded="true" />
-            <element signature="e#5706#5707#0" expanded="true" />
-            <marker date="1498434100093" expanded="true" signature="4493:4640" ph="insert into UserInfo... " />
-            <marker date="1498434100093" expanded="true" signature="4493:4647" ph="insert into UserInfo... " />
+            <marker date="1498484676216" expanded="true" signature="4675:4827" ph="insert into TrainNumberTable... " />
+            <marker date="1498484676216" expanded="true" signature="4675:4836" ph="insert into TrainNumberTable... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="15" selection-end-line="95" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498496610226" expanded="true" signature="3826:3866" ph="select * fro... UserInfo" />
+            <marker date="1498496610226" expanded="true" signature="3826:3904" ph="select * fro... UserInfo" />
+            <marker date="1498496610226" expanded="true" signature="3826:3908" ph="select * fro... UserInfo" />
+            <marker date="1498496610226" expanded="true" signature="3826:3910" ph="select * fro... UserInfo" />
+            <marker date="1498496610226" expanded="true" signature="3826:3923" ph="select * fro... UserInfo" />
+            <marker date="1498496610226" expanded="true" signature="3826:3925" ph="select * fro... UserInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/ManagerLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1719">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498496850437" expanded="true" signature="3503:3606" ph="select * fro... ManagerInfo" />
+            <marker date="1498496850437" expanded="true" signature="3503:3653" ph="select * fro... ManagerInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5552#5553#0" expanded="true" />
+            <element signature="e#5589#5590#0" expanded="true" />
+            <marker date="1498496610232" expanded="true" signature="4436:4505" ph="insert into UserInfo... " />
+            <marker date="1498496610232" expanded="true" signature="4436:4510" ph="insert into UserInfo... " />
+            <marker date="1498496610232" expanded="true" signature="4436:4539" ph="insert into UserInfo... " />
+            <marker date="1498496610232" expanded="true" signature="4436:4540" ph="insert into 客人信息... " />
           </folding>
         </state>
       </provider>

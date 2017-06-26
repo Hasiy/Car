@@ -78,23 +78,33 @@ import java.sql.*;
         //登陆按钮
         if (ae.getSource() == bLogin) {
             if (tUser.getText().equals("") || password.getPassword().equals("")) {
-                JOptionPane.showMessageDialog(null, "请输入");
+                JOptionPane.showMessageDialog(null, "请输入","提示",JOptionPane.ERROR_MESSAGE);
             } else {
                 Connection conn;
                 Statement stat;
                 ResultSet rs;
+
+                String pwd,mima="";
+                char temp = 0;
+                pwd=String.valueOf(password.getPassword());
+                for(int k=0;k<pwd.length();k++) {
+                    if((pwd.charAt(k) > 64 && pwd.charAt(k) < 88)||(pwd.charAt(k) > 96 && pwd.charAt(k) < 120))
+                        temp=(char) (pwd.charAt(k) + 3);
+                    else if((pwd.charAt(k) > 87 && pwd.charAt(k) < 91)||(pwd.charAt(k) > 119 && pwd.charAt(k) < 123))
+                        temp=(char) (pwd.charAt(k) - 23);
+                    mima+=temp;
+                }// 密码的加密
                 try {
                     //数据库连接
                     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                     conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car", "sa", "512512");
                     stat = conn.createStatement();
-                    rs = stat.executeQuery("select * from UserInfo where Name=" + "'" + String.valueOf(tUser.getText()) + "' and Password=" + "'" + String.valueOf(password.getPassword()) + "'");
+                    rs = stat.executeQuery("select * from UserInfo where Name=" + "'" + tUser.getText() + "' and Password=" + "'" + mima + "'");
                     if (rs.next()) {
                         this.dispose();
-//
                         new UserWindows();
                         rs.close();
-                        JOptionPane.showMessageDialog(null, "  欢迎登陆系统!", "提示", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "欢迎登陆系统!", "提示", JOptionPane.INFORMATION_MESSAGE);
                     } else
                         JOptionPane.showMessageDialog(null, "用户或密码错误", "提示", JOptionPane.ERROR_MESSAGE);
                 } catch (Exception e) {
