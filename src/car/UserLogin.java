@@ -29,9 +29,7 @@ import java.sql.*;
         this.setContentPane(panelMain);
         //标题
         panel1 = new JPanel();
-//		lbTitle=new JLabel("WELCOME");
         lbTitle = new JLabel(new ImageIcon(car.UserLogin.class.getResource("UserLogin.jpg")));
-//		lbTitle.setFont(titleFont);
         panel1.add(lbTitle);
         //用户名
         panel2 = new JPanel();
@@ -66,6 +64,7 @@ import java.sql.*;
         panelMain.add(panel2);
         panelMain.add(panel3);
         panelMain.add(panel4);
+
         //窗体属性
         setBounds(400, 250, 430, 400);
         setVisible(true);
@@ -88,10 +87,10 @@ import java.sql.*;
                 char temp = 0;
                 pwd=String.valueOf(password.getPassword());
                 for(int k=0;k<pwd.length();k++) {
-                    if((pwd.charAt(k) > 64 && pwd.charAt(k) < 88)||(pwd.charAt(k) > 96 && pwd.charAt(k) < 120))
-                        temp=(char) (pwd.charAt(k) + 3);
-                    else if((pwd.charAt(k) > 87 && pwd.charAt(k) < 91)||(pwd.charAt(k) > 119 && pwd.charAt(k) < 123))
-                        temp=(char) (pwd.charAt(k) - 23);
+                    if((pwd.charAt(k) > 32 && pwd.charAt(k) < 107))
+                        temp=(char) (pwd.charAt(k) + 20);
+                    else if((pwd.charAt(k) > 106 && pwd.charAt(k) < 127))
+                        temp=(char) (pwd.charAt(k) - 74);
                     mima+=temp;
                 }// 密码的加密
                 try {

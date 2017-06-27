@@ -91,10 +91,10 @@ import java.sql.*;
                     a5="'"+tMobile.getText().trim()+"'";
 
                     for(i=0;i<a3.length();i++) {
-                        if((a3.charAt(i) > 64 && a3.charAt(i) < 88)||(a3.charAt(i) > 96 && a3.charAt(i) < 120))
-                            temp=(char) (a3.charAt(i) + 3);
-                        else if((a3.charAt(i) > 87 && a3.charAt(i) < 91)||(a3.charAt(i) > 119 && a3.charAt(i) < 123))
-                            temp=(char) (a3.charAt(i) - 23);
+                        if((a3.charAt(i) > 32 && a3.charAt(i) < 107) )
+                            temp=(char) (a3.charAt(i) + 20);
+                        else if((a3.charAt(i) > 106 && a3.charAt(i) < 127))
+                            temp=(char) (a3.charAt(i) -74 );
                         a6+=temp;
                     }
                     a6="'"+a6+"'";// 密码的加密

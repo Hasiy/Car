@@ -93,28 +93,28 @@ public class ManagerWindows extends JFrame implements ActionListener{
     }
     public void actionPerformed(ActionEvent a){    // 按钮事件监听
         if(a.getActionCommand().equals("用户查询")){
-            new UserManagement();
+            new QueryUser();
         }
         if(a.getActionCommand().equals("用户添加")){
-            new SiteManagement();
+            new AddUser();
         }
         if(a.getActionCommand().equals("用户修改")){
-            new SiteManagement();
+            new About();
         }
         if(a.getActionCommand().equals("用户删除")){
-            new SiteManagement();
+            new DeleteUser();
         }
         if(a.getActionCommand().equals("车票查询")){
-            new UserManagement();
+            new QueryTicket();
         }
         if(a.getActionCommand().equals("车票添加")){
-            new SiteManagement();
+            new AddTicket();
         }
         if(a.getActionCommand().equals("车票修改")){
-            new SiteManagement();
+            new About();
         }
         if(a.getActionCommand().equals("车票删除")){
-            new SiteManagement();
+            new DeleteTicket();
         }
         if(a.getActionCommand()=="退出"){
             System.exit(0);

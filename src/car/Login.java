@@ -38,15 +38,15 @@ public class Login extends JFrame implements ActionListener{
             b4.setBounds(160, 370, 100, 40);
             b5.setBounds(160, 430, 100, 40);
             b1.setFont(new java.awt.Font("楷体", 1, 20));// 设置按钮的字体大小 颜按钮色
-            b1.setBackground(new Color(146, 163, 255));
+            b1.setBackground(new Color(232, 255, 105));
             b2.setFont(new java.awt.Font("楷体", 1, 20));
-            b2.setBackground(new Color(146, 163, 255));
+            b2.setBackground(new Color(232, 255, 105));
             b3.setFont(new java.awt.Font("楷体", 1, 20));
-            b3.setBackground(new Color(146, 163, 255));
+            b3.setBackground(new Color(232, 255, 105));
             b4.setFont(new java.awt.Font("楷体", 1, 20));
-            b4.setBackground(new Color(146, 163, 255));
+            b4.setBackground(new Color(232, 255, 105));
             b5.setFont(new java.awt.Font("楷体", 1, 20));
-            b5.setBackground(new Color(146, 163, 255));
+            b5.setBackground(new Color(144, 255, 142));
             b1.setBorder(BorderFactory.createRaisedBevelBorder()); //设置按钮样式 凸
             b2.setBorder(BorderFactory.createRaisedBevelBorder());
             b3.setBorder(BorderFactory.createRaisedBevelBorder());
