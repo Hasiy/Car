@@ -16,7 +16,7 @@ public class DeleteTicket extends JFrame implements ActionListener{
     JButton bDelete,bBack;
     JPanel panelMain,panel11,panel1,panel2,panel3,panel4;
     public DeleteTicket(){
-        super("车票删除");
+        super("车次删除");
         Image img=Toolkit.getDefaultToolkit().getImage(car.DeleteTicket.class.getResource("1.png"));
         setIconImage(img);
         UIManager.put("Button.select",new Color(100,200,100));

@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.sql.*;
 
 /**
- * Created by zhuxiaoyao on 2017/6/27. todo 按起点站或终点站查
+ * Created by zhuxiaoyao on 2017/6/27.  按起点站或终点站查
  */
     public class QuerTrain extends JFrame implements ActionListener
     {
@@ -19,7 +19,7 @@ import java.sql.*;
         JTable table;
         Container container;
         Object a[][];
-        Object colname[]={"车次编号","起点站","终点站","票价","发车时间","座位数"};
+        Object colname[]={"车次编号","起点站","终点站","票价","发车时间","剩余座位数","总座位数"};
         public QuerTrain()
         {
             super("按起点站或终点站查");
@@ -27,7 +27,7 @@ import java.sql.*;
             Image img=Toolkit.getDefaultToolkit().getImage(car.QuerTrain.class.getResource("1.png"));
             setIconImage(img);
 
-            a=new Object[50][6];
+            a=new Object[50][7];
             table=new JTable(a,colname);
             setSize(50,50);
             setVisible(true);
@@ -81,7 +81,7 @@ import java.sql.*;
                         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                         conn=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car","sa","512512");
                         stat=conn.createStatement();
-                        rst=stat.executeQuery("select TrainNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,TicketsLeft from TrainNumberTable " +
+                        rst=stat.executeQuery("select TrainNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,TicketsLeft,TicketAll from TrainNumberTable " +
                                 "where OriginStation="+"'"+tName.getText()+"'");
                         while (rst.next()){
                             a[i][0]=rst.getString("TrainNumber");
@@ -90,6 +90,7 @@ import java.sql.*;
                             a[i][3]=rst.getString("TicketPrice");
                             a[i][4]=rst.getString("DepartureTime");
                             a[i][5]=rst.getString("TicketsLeft");
+                            a[i][6]=rst.getString("TicketAll");
                             n++;
                             this.setVisible(false);
                             this.setVisible(true);
@@ -113,7 +114,7 @@ import java.sql.*;
                     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                     conn=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car","sa","512512");
                     stat=conn.createStatement();
-                    rs=stat.executeQuery("select TrainNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,TicketsLeft from TrainNumberTable " +
+                    rs=stat.executeQuery("select TrainNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,TicketsLeft,TicketAll from TrainNumberTable " +
                             "where TerminalStation="+"'"+tName.getText()+"'");
                     while(rs.next()){
                         n++;
@@ -123,6 +124,7 @@ import java.sql.*;
                         a[i][3]=rs.getString("TicketPrice");
                         a[i][4]=rs.getString("DepartureTime");
                         a[i][5]=rs.getString("TicketsLeft");
+                        a[i][6]=rs.getString("TicketAll");
                         i++;
                         this.setVisible(false);
                         this.setVisible(true);

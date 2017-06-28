@@ -44,7 +44,7 @@ public class QueryUser extends JFrame implements ActionListener{
         container.add(panel1,BorderLayout.SOUTH);
 
         container.add(new JScrollPane(table),BorderLayout.CENTER);
-        setBounds(380,200,500,600);
+        setBounds(380,200,500,400);
         setVisible(true);
     }
     public void actionPerformed(ActionEvent ae){

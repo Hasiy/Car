@@ -8,7 +8,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 /**
- * Created by zhuxiaoyao on 2017/6/27.  TODO 退票  删除用户选择的票号
+ * Created by zhuxiaoyao on 2017/6/27.   退票  删除用户选择的票号 todo 退票后座位数+1
  */
     public class RefundTicket extends JFrame implements ActionListener {
         //删除 通过
@@ -31,7 +31,7 @@ import java.sql.PreparedStatement;
 
             panel1=new JPanel();
             panel2=new JPanel();
-            lNO=new JLabel("车次编号:");
+            lNO=new JLabel("车票编号:");
             tNO=new JTextField(6);
             panel1.add(lNO);
             panel2.add(tNO);
@@ -70,13 +70,16 @@ import java.sql.PreparedStatement;
             else if(ae.getActionCommand()=="退订"){
                 Connection con;
                 PreparedStatement stat;
-                String b="delete from TicketInfo where TrainNumber="+"'"+tNO.getText()+"'"+"";
+                String b="delete from TicketInfo where IDNumber="+"'"+tNO.getText()+"'"+"";
                 try{
                     Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                     con= DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car","sa","512512");
+
+
+
                     stat=con.prepareStatement(b);
                     stat.executeUpdate();
-                    JOptionPane.showMessageDialog(null,"退订车票成功!","提示",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(null,"退订车票成功!退款稍后到达您账户","提示",JOptionPane.INFORMATION_MESSAGE);
                 }
                 catch(Exception e){
                     e.printStackTrace();

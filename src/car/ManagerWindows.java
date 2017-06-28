@@ -29,10 +29,10 @@ public class ManagerWindows extends JFrame implements ActionListener{
         b2 = new JButton("用户添加");
         b3 = new JButton("用户修改");
         b4 = new JButton("用户删除");
-        b5 = new JButton("车票查询");
-        b6 = new JButton("车票添加");
-        b7 = new JButton("车票修改");
-        b8 = new JButton("车票删除");
+        b5 = new JButton("车次查询");
+        b6 = new JButton("车次添加");
+        b7 = new JButton("车次修改");
+        b8 = new JButton("车次删除");
         b9 = new JButton("退出");
         b1.setBounds(150, 120, 120, 40); // 设置按钮的位置与大小
         b2.setBounds(150, 180, 120, 40);
@@ -104,16 +104,16 @@ public class ManagerWindows extends JFrame implements ActionListener{
         if(a.getActionCommand().equals("用户删除")){
             new DeleteUser();
         }
-        if(a.getActionCommand().equals("车票查询")){
+        if(a.getActionCommand().equals("车次查询")){
             new QueryTicket();
         }
-        if(a.getActionCommand().equals("车票添加")){
+        if(a.getActionCommand().equals("车次添加")){
             new AddTicket();
         }
-        if(a.getActionCommand().equals("车票修改")){
+        if(a.getActionCommand().equals("车次修改")){
             new About();
         }
-        if(a.getActionCommand().equals("车票删除")){
+        if(a.getActionCommand().equals("车次删除")){
             new DeleteTicket();
         }
         if(a.getActionCommand()=="退出"){

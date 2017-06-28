@@ -7,9 +7,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
 /**
- * Created by zhuxiaoyao on 2017/6/27.   TODO 查询已购车票
+ * Created by zhuxiaoyao on 2017/6/27.    查询已购车票
  */
     public class QuerPurchasedTicket extends JFrame implements ActionListener
     {
@@ -22,14 +21,13 @@ import java.sql.Statement;
         JTable table;
         Container container;
         Object a[][];
-        Object colname[]={"车牌号","座位号","起点站","终点站","票价","发车时间","用户名"};
+        Object colname[]={"车次编号","座位号","起点站","终点站","票价","发车时间","用户名","车票编号"};
         public QuerPurchasedTicket()
         {
             super("查询已购车票");
-
             Image img=Toolkit.getDefaultToolkit().getImage(car.QuerPurchasedTicket.class.getResource("1.png"));
             setIconImage(img);
-            a=new Object[50][7];
+            a=new Object[50][8];
             table=new JTable(a,colname);
             setSize(50,50);
             setVisible(true);
@@ -56,7 +54,6 @@ import java.sql.Statement;
             container.add(new JScrollPane(table),BorderLayout.CENTER);
             setBounds(400,200,600,400);
         }
-
         public void actionPerformed(ActionEvent ae){
             if(ae.getSource()==bBack){
                 dispose();
@@ -76,16 +73,17 @@ import java.sql.Statement;
                         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                         conn= DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car","sa","512512");
                         stat=conn.createStatement();
-                        rst=stat.executeQuery("select TrainNumber,SeatNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,UserName from TicketInfo " +
-                                "where UserName="+"'"+tName.getText()+"'");
+                        rst=stat.executeQuery("select TrainNumber,SetNumber,OriginStation,TerminalStation,TicketPrice,DepartureTime,UserName,IDNumber from TicketInfo "
+                                + "where UserName="+"'"+tName.getText()+"'");
                         while(rst.next()){
                             a[i][0]=rst.getString("TrainNumber");
-                            a[i][1]=rst.getString("SeatNumber");
+                            a[i][1]=rst.getString("SetNumber");
                             a[i][2]=rst.getString("OriginStation");
                             a[i][3]=rst.getString("TerminalStation");
                             a[i][4]=rst.getString("TicketPrice");
                             a[i][5]=rst.getString("DepartureTime");
                             a[i][6]=rst.getString("UserName");
+                            a[i][7]=rst.getString("IDNumber");
                             i++;n++;
                             this.setVisible(false);
                             this.setVisible(true);

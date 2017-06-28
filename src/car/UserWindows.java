@@ -70,10 +70,10 @@ public class UserWindows extends JFrame implements ActionListener{
                 new About();
             }
             if(a.getActionCommand().equals("查看已购车票")){
-                new About();
+                new QuerPurchasedTicket();
             }
             if(a.getActionCommand().equals("退票")){
-                new About();
+                new RefundTicket();
             }
             if(a.getActionCommand()=="退出"){
                 System.exit(0);
