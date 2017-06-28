@@ -1,17 +1,12 @@
 package car;
-
-import com.sun.xml.internal.bind.v2.model.core.ID;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
-
 /**
  * Created by zhuxiaoyao on 2017/6/27.    订票 订票后 座位数 -1  IDnumber（车票编号=用户编号+车次编号）
  */
-
     public class   ReserveTicket   extends JFrame implements ActionListener
     {
         private static final long serialVersionUID = 1L;

@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.awt.*;
 import java.sql.*;
 /**
- * Created by zhuxiaoyao on 2017/6/27.   查询车票
+ * Created by zhuxiaoyao on 2017/6/27.   查询车次
  */
 public class QueryTicket extends JFrame implements ActionListener{
     private static final long serialVersionUID = 1L;
@@ -17,7 +17,7 @@ public class QueryTicket extends JFrame implements ActionListener{
     JPanel panel1;
 
     public QueryTicket(){
-        setTitle("查询车票");
+        setTitle("查询车次");
         Image img=Toolkit.getDefaultToolkit().getImage(car.QueryTicket.class.getResource("1.png"));
         setIconImage(img);
         a=new Object[100][7];

@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 /**
- * Created by zhuxiaoyao on 2017/6/27. TODO 用户修改   修改密码 修改
+ * Created by zhuxiaoyao on 2017/6/27.  用户修改
  */
     public class ReviseUser extends JFrame implements ActionListener {
         private static final long serialVersionUID = 1L;
