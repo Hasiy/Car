@@ -7,22 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5cd841e-dc90-46fc-a6b6-08f51232e6cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/car/PayBackground.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/car/MakeMD5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/car/PayWindows.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/AddTicket.java" afterPath="$PROJECT_DIR$/src/car/AddTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/DeleteTicket.java" afterPath="$PROJECT_DIR$/src/car/DeleteTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ManagerWindows.java" afterPath="$PROJECT_DIR$/src/car/ManagerWindows.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/QuerPurchasedTicket.java" afterPath="$PROJECT_DIR$/src/car/QuerPurchasedTicket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/DeleteUser.java" afterPath="$PROJECT_DIR$/src/car/DeleteUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/MakeMD5.java" afterPath="$PROJECT_DIR$/src/car/MakeMD5.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/QuerTrain.java" afterPath="$PROJECT_DIR$/src/car/QuerTrain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/QueryTicket.java" afterPath="$PROJECT_DIR$/src/car/QueryTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/QueryUser.java" afterPath="$PROJECT_DIR$/src/car/QueryUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/RefundTicket.java" afterPath="$PROJECT_DIR$/src/car/RefundTicket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ReserveTicket.java" afterPath="$PROJECT_DIR$/src/car/ReserveTicket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ReviseTicket.java" afterPath="$PROJECT_DIR$/src/car/ReviseTicket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/ReviseUser.java" afterPath="$PROJECT_DIR$/src/car/ReviseUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/car/UserWindows.java" afterPath="$PROJECT_DIR$/src/car/UserWindows.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,39 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ReserveTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/ReserveTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2921">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8712#8713#0" expanded="true" />
-                <element signature="e#8757#8758#0" expanded="true" />
-                <marker date="1498657942639" expanded="true" signature="3439:3524" ph="select IDnum... UserInfo" />
-                <marker date="1498657942639" expanded="true" signature="3439:3546" ph="select IDnum... UserInfo" />
-                <marker date="1498657942639" expanded="true" signature="3439:3548" ph="select IDnum... UserInfo" />
-                <marker date="1498657942639" expanded="true" signature="3439:3550" ph="select IDnum... UserInfo" />
-                <marker date="1498657942639" expanded="true" signature="4242:4428" ph="select Ticke... TrainNumberTable" />
-                <marker date="1498657942639" expanded="true" signature="6591:6683" ph="insert into TicketInfo... " />
-                <marker date="1498657942639" expanded="true" signature="6975:6998" ph="update Train... " />
-                <marker date="1498657942639" expanded="true" signature="6975:7016" ph="update Train... " />
-                <marker date="1498657942639" expanded="true" signature="6975:7032" ph="update Train... " />
-                <marker date="1498657942639" expanded="true" signature="6975:7033" ph="update Train... " />
-                <marker date="1498657942639" expanded="true" signature="6975:7075" ph="update Train... " />
-                <marker date="1498657942639" expanded="true" signature="7260:7435" ph="select Train... TicketInfo" />
-                <marker date="1498657942639" expanded="true" signature="7260:7455" ph="select Train... TicketInfo" />
-                <marker date="1498657942639" expanded="true" signature="7260:7457" ph="select Train... TicketInfo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RefundTicket.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RefundTicket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/car/RefundTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="138">
+              <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1498657705263" expanded="true" signature="2657:2717" ph="delete from " />
@@ -147,37 +110,9 @@
       <file leaf-file-name="MakeMD5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/MakeMD5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+            <state relative-caret-position="368">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/AddTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1702">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <marker date="1498658421661" expanded="true" signature="5084:5246" ph="insert into TrainNumberTable... " />
-                <marker date="1498658421661" expanded="true" signature="5084:5262" ph="insert into TrainNumberTable... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReviseTicket.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/car/ReviseTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="57" column="62" lean-forward="true" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5949#5950#0" expanded="true" />
-                <element signature="e#5991#5992#0" expanded="true" />
-                <marker date="1498658002513" expanded="true" signature="4771:4932" ph="insert into TrainNumberTable... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,34 +120,50 @@
       <file leaf-file-name="ReviseUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/car/ReviseUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuerPurchasedTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/QuerPurchasedTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="278">
+              <caret line="95" column="74" lean-forward="true" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1498655352792" expanded="true" signature="3002:3197" ph="select Train... TicketInfo" />
+                <element signature="e#5795#5796#0" expanded="true" />
+                <element signature="e#5835#5836#0" expanded="true" />
+                <marker date="1498664626273" expanded="true" signature="4464:4502" ph="delete from " />
+                <marker date="1498664626273" expanded="true" signature="4464:4524" ph="delete from " />
+                <marker date="1498664626273" expanded="true" signature="4560:4664" ph="insert into UserInfo... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuerTrain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/car/QuerTrain.java">
+      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
-              <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+            <state relative-caret-position="444">
+              <caret line="94" column="60" lean-forward="true" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
               <folding>
-                <marker date="1498586658224" expanded="true" signature="3228:3428" ph="select Train... TrainNumberTable" />
-                <marker date="1498586658224" expanded="true" signature="5036:5234" ph="select Train... TrainNumberTable" />
+                <element signature="imports" expanded="true" />
+                <marker date="1498570345568" expanded="true" signature="4354:4423" ph="insert into UserInfo... " />
+                <marker date="1498570345568" expanded="true" signature="4354:4428" ph="insert into UserInfo... " />
+                <marker date="1498570345568" expanded="true" signature="4354:4457" ph="insert into UserInfo... " />
+                <marker date="1498570345568" expanded="true" signature="4354:4458" ph="insert into 客人信息... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1498613214396" expanded="true" signature="3673:3713" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3737" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3751" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3755" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3757" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3770" ph="select * fro... UserInfo" />
+                <marker date="1498613214396" expanded="true" signature="3673:3772" ph="select * fro... UserInfo" />
               </folding>
             </state>
           </provider>
@@ -277,23 +228,23 @@
         <option value="$PROJECT_DIR$/src/car/UserDelete.java" />
         <option value="$PROJECT_DIR$/src/DeleteUser.java" />
         <option value="$PROJECT_DIR$/src/car/Login.java" />
-        <option value="$PROJECT_DIR$/src/car/DeleteUser.java" />
         <option value="$PROJECT_DIR$/src/car/AddUser.java" />
         <option value="$PROJECT_DIR$/src/car/UserWindows.java" />
-        <option value="$PROJECT_DIR$/src/car/QuerTrain.java" />
         <option value="$PROJECT_DIR$/src/car/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/car/DeleteTicket.java" />
         <option value="$PROJECT_DIR$/src/car/ManagerWindows.java" />
         <option value="$PROJECT_DIR$/src/car/PayWindows.java" />
         <option value="$PROJECT_DIR$/src/car/QueryUser.java" />
         <option value="$PROJECT_DIR$/src/car/QueryTicket.java" />
-        <option value="$PROJECT_DIR$/src/car/ReviseUser.java" />
         <option value="$PROJECT_DIR$/src/car/QuerPurchasedTicket.java" />
         <option value="$PROJECT_DIR$/src/car/RefundTicket.java" />
-        <option value="$PROJECT_DIR$/src/car/MakeMD5.java" />
         <option value="$PROJECT_DIR$/src/car/ReserveTicket.java" />
-        <option value="$PROJECT_DIR$/src/car/ReviseTicket.java" />
         <option value="$PROJECT_DIR$/src/car/AddTicket.java" />
+        <option value="$PROJECT_DIR$/src/car/ReviseTicket.java" />
+        <option value="$PROJECT_DIR$/src/car/QuerTrain.java" />
+        <option value="$PROJECT_DIR$/src/car/MakeMD5.java" />
+        <option value="$PROJECT_DIR$/src/car/DeleteUser.java" />
+        <option value="$PROJECT_DIR$/src/car/ReviseUser.java" />
       </list>
     </option>
   </component>
@@ -440,37 +391,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddTicket">
-    <configuration default="false" name="QueryTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.QueryTicket" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Car" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReviseUser">
     <configuration default="false" name="QuerTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="car.QuerTrain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Car" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuerPurchasedTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="car.QuerPurchasedTicket" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -499,6 +422,34 @@
     </configuration>
     <configuration default="false" name="AddTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="car.AddTicket" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Car" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReviseUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.ReviseUser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Car" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="car.DeleteUser" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -634,19 +585,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Login" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QueryTicket" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QuerTrain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QuerPurchasedTicket" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReviseTicket" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AddTicket" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuerTrain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReviseTicket" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AddTicket" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReviseUser" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DeleteUser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AddTicket" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReviseTicket" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QuerPurchasedTicket" />
-        <item index="3" class="java.lang.String" itemvalue="Application.QueryTicket" />
-        <item index="4" class="java.lang.String" itemvalue="Application.QuerTrain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReviseUser" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DeleteUser" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReviseTicket" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QuerTrain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AddTicket" />
       </list>
     </recent_temporary>
     <configuration default="true" type="Application" factoryName="应用程序">
@@ -747,7 +698,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0969163" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07709251" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18392071" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08810572" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1807611" sideWeight="0.49577805" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16754757" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="790" y="151" width="340" height="808" />
@@ -840,11 +791,12 @@
     <MESSAGE value="Login  module" />
     <MESSAGE value="Manager mode" />
     <MESSAGE value="Manager user mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manager user mode" />
+    <MESSAGE value="Manager user all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manager user all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1063,16 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/DeleteUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <marker date="1498551497081" expanded="true" signature="2325:2385" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/UserLogin.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1094,53 +1036,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498570345568" expanded="true" signature="4354:4423" ph="insert into UserInfo... " />
-            <marker date="1498570345568" expanded="true" signature="4354:4428" ph="insert into UserInfo... " />
-            <marker date="1498570345568" expanded="true" signature="4354:4457" ph="insert into UserInfo... " />
-            <marker date="1498570345568" expanded="true" signature="4354:4458" ph="insert into 客人信息... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/PayWindows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/DeleteTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498633221158" expanded="true" signature="2333:2402" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498613214396" expanded="true" signature="3673:3713" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3737" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3751" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3755" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3757" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3770" ph="select * fro... UserInfo" />
-            <marker date="1498613214396" expanded="true" signature="3673:3772" ph="select * fro... UserInfo" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,51 +1073,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/QuerPurchasedTicket.java">
+    <entry file="file://$PROJECT_DIR$/src/car/AddTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="207">
+          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498655352792" expanded="true" signature="3002:3197" ph="select Train... TicketInfo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/ReviseUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/QuerTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
-          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
-          <folding>
-            <marker date="1498586658224" expanded="true" signature="3228:3428" ph="select Train... TrainNumberTable" />
-            <marker date="1498586658224" expanded="true" signature="5036:5234" ph="select Train... TrainNumberTable" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/RefundTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1498657705263" expanded="true" signature="2657:2717" ph="delete from " />
+            <marker date="1498658567385" expanded="true" signature="5084:5246" ph="insert into TrainNumberTable... " />
+            <marker date="1498658567385" expanded="true" signature="5084:5262" ph="insert into TrainNumberTable... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/ReserveTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2921">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="-391">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8712#8713#0" expanded="true" />
@@ -1240,34 +1110,127 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/QuerTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2708">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6291#6292#0" expanded="true" />
+            <marker date="1498659608425" expanded="true" signature="3225:3425" ph="select Train... TrainNumberTable" />
+            <marker date="1498659608425" expanded="true" signature="5033:5231" ph="select Train... TrainNumberTable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/QuerPurchasedTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498655352792" expanded="true" signature="3002:3197" ph="select Train... TicketInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/car/MakeMD5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="368">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/car/AddTicket.java">
+    <entry file="file://$PROJECT_DIR$/src/car/DeleteTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1702">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="457">
+          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
           <folding>
-            <marker date="1498658421661" expanded="true" signature="5084:5246" ph="insert into TrainNumberTable... " />
-            <marker date="1498658421661" expanded="true" signature="5084:5262" ph="insert into TrainNumberTable... " />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2959#2960#0" expanded="true" />
+            <element signature="e#2993#2994#0" expanded="true" />
+            <marker date="1498633221158" expanded="true" signature="2333:2402" ph="delete from " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/car/ReviseTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="57" column="62" lean-forward="true" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+        <state relative-caret-position="138">
+          <caret line="116" column="65" lean-forward="false" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5949#5950#0" expanded="true" />
-            <element signature="e#5991#5992#0" expanded="true" />
-            <marker date="1498658002513" expanded="true" signature="4771:4932" ph="insert into TrainNumberTable... " />
+            <marker date="1498659397761" expanded="true" signature="6253:6331" ph="delete from " />
+            <marker date="1498659397761" expanded="true" signature="6379:6557" ph="insert into TrainNumberTable... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="78" column="53" lean-forward="false" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498664389452" expanded="true" signature="2345:2405" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498613214396" expanded="true" signature="3673:3713" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3737" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3751" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3755" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3757" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3770" ph="select * fro... UserInfo" />
+            <marker date="1498613214396" expanded="true" signature="3673:3772" ph="select * fro... UserInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/AddUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="94" column="60" lean-forward="true" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498570345568" expanded="true" signature="4354:4423" ph="insert into UserInfo... " />
+            <marker date="1498570345568" expanded="true" signature="4354:4428" ph="insert into UserInfo... " />
+            <marker date="1498570345568" expanded="true" signature="4354:4457" ph="insert into UserInfo... " />
+            <marker date="1498570345568" expanded="true" signature="4354:4458" ph="insert into 客人信息... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/ReviseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="95" column="74" lean-forward="true" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5795#5796#0" expanded="true" />
+            <element signature="e#5835#5836#0" expanded="true" />
+            <marker date="1498664626273" expanded="true" signature="4464:4502" ph="delete from " />
+            <marker date="1498664626273" expanded="true" signature="4464:4524" ph="delete from " />
+            <marker date="1498664626273" expanded="true" signature="4560:4664" ph="insert into UserInfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/car/RefundTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="69" column="49" lean-forward="true" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1498657705263" expanded="true" signature="2657:2717" ph="delete from " />
           </folding>
         </state>
       </provider>

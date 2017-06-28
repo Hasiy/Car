@@ -68,13 +68,17 @@ public class DeleteUser extends JFrame implements ActionListener{
         else if(ae.getActionCommand()=="删除"){
             Connection con;
             PreparedStatement stat;
+            int  r;
             String b="delete from UserInfo where IDnumbered="+"'"+tNO.getText()+"'"+"";
             try{
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
                 con=DriverManager.getConnection("jdbc:sqlserver://localhost:1433;DatabaseName=car","sa","512512");
                 stat=con.prepareStatement(b);
-                stat.executeUpdate();
-                JOptionPane.showMessageDialog(null,"删除用户成功!","提示",JOptionPane.INFORMATION_MESSAGE);
+                r=stat.executeUpdate();
+                if (r<1){
+                    JOptionPane.showMessageDialog(null,"删除用户失败/不存在改用户!","提示",JOptionPane.ERROR_MESSAGE);}
+                else{
+                    JOptionPane.showMessageDialog(null,"删除用户成功!","提示",JOptionPane.INFORMATION_MESSAGE);}
             }
             catch(Exception e){
                 e.printStackTrace();

@@ -4,7 +4,6 @@ package car;
  * Created by zhuxiaoyao on 2017/6/28.
  */
 import java.security.MessageDigest;
-
 public class MakeMD5 {
     public final static String password(String str){
         // 用来将字节转换成 16 进制表示的字符

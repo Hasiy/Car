@@ -23,10 +23,8 @@ import java.sql.*;
         public QuerTrain()
         {
             super("按起点站或终点站查");
-
             Image img=Toolkit.getDefaultToolkit().getImage(car.QuerTrain.class.getResource("1.png"));
             setIconImage(img);
-
             a=new Object[50][7];
             table=new JTable(a,colname);
             setSize(50,50);
@@ -62,7 +60,6 @@ import java.sql.*;
             container.add(new JScrollPane(table),BorderLayout.CENTER);
             setBounds(400,200,600,400);
         }
-
         public void actionPerformed(ActionEvent ae){
             if(ae.getSource()==bBack){
                 dispose();
@@ -136,7 +133,6 @@ import java.sql.*;
                     JOptionPane.showMessageDialog(null,"连接失败!","提示",JOptionPane.ERROR_MESSAGE);
                 }
             }
-
         }
         public static void main(String[] args) {
             new QuerTrain();
