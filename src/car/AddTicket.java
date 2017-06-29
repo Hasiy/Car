@@ -15,7 +15,7 @@ import java.sql.*;
         JButton bAdd,bBack;
         JPanel panelMain,panel1,panel2,panel3,panel4,panel5,panel6,panel7,panel8,panel9;
         public AddTicket(){
-            super("AddTicket");
+            super("车次添加");
             Image img=Toolkit.getDefaultToolkit().getImage(car.AddTicket.class.getResource("1.png"));
             setIconImage(img);
             setBounds(200,100,400,450);// 窗口位置 大小

@@ -99,7 +99,7 @@ public class ManagerWindows extends JFrame implements ActionListener{
             new AddUser();
         }
         if(a.getActionCommand().equals("用户修改")){
-            new About();
+            new ReviseUser();
         }
         if(a.getActionCommand().equals("用户删除")){
             new DeleteUser();
@@ -111,7 +111,7 @@ public class ManagerWindows extends JFrame implements ActionListener{
             new AddTicket();
         }
         if(a.getActionCommand().equals("车次修改")){
-            new About();
+            new ReviseTicket();
         }
         if(a.getActionCommand().equals("车次删除")){
             new DeleteTicket();

@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 /**
- * Created by zhuxiaoyao on 2017/6/27.    查询已购车票
+ * Created by zhuxiaoyao on 2017/6/27.    查询已购车票   user
  */
     public class QuerPurchasedTicket extends JFrame implements ActionListener
     {

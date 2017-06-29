@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Car:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Car_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Car.jar">
+        <element id="module-output" name="Car" />
+      </element>
+      <element id="library" level="project" name="sqljdbc42" />
+    </root>
+  </artifact>
+</component>

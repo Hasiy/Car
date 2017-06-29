@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.sql.*;
 
 /**
- * Created by zhuxiaoyao on 2017/6/27.  按起点站或终点站查
+ * Created by zhuxiaoyao on 2017/6/27.  按起点站或终点站查  user
  */
     public class QuerTrain extends JFrame implements ActionListener
     {

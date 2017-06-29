@@ -26,7 +26,7 @@ public class Login extends JFrame implements ActionListener{
             setLayout(null);// 必须要有  设置按键布局
             setBounds(200,100,420,550);	 // 窗口位置 大小
             Container c = getContentPane();
-            UIManager.put("Button.select",new Color(100,200,100)); //按钮按下后的颜色
+            UIManager.put("Button.select",new Color(158, 186, 200)); //按钮按下后的颜色
             b1 = new JButton("管理员"); // 创建按钮
             b2 = new JButton("用户");
             b3 = new JButton("注册");
@@ -38,15 +38,15 @@ public class Login extends JFrame implements ActionListener{
             b4.setBounds(160, 370, 100, 40);
             b5.setBounds(160, 430, 100, 40);
             b1.setFont(new java.awt.Font("楷体", 1, 20));// 设置按钮的字体大小 颜按钮色
-            b1.setBackground(new Color(232, 255, 105));
+            b1.setBackground(new Color(218, 255, 156));
             b2.setFont(new java.awt.Font("楷体", 1, 20));
-            b2.setBackground(new Color(232, 255, 105));
+            b2.setBackground(new Color(218, 255, 156));
             b3.setFont(new java.awt.Font("楷体", 1, 20));
-            b3.setBackground(new Color(232, 255, 105));
+            b3.setBackground(new Color(218, 255, 156));
             b4.setFont(new java.awt.Font("楷体", 1, 20));
-            b4.setBackground(new Color(232, 255, 105));
+            b4.setBackground(new Color(218, 255, 156));
             b5.setFont(new java.awt.Font("楷体", 1, 20));
-            b5.setBackground(new Color(144, 255, 142));
+            b5.setBackground(new Color(154, 255, 155));
             b1.setBorder(BorderFactory.createRaisedBevelBorder()); //设置按钮样式 凸
             b2.setBorder(BorderFactory.createRaisedBevelBorder());
             b3.setBorder(BorderFactory.createRaisedBevelBorder());
@@ -65,7 +65,7 @@ public class Login extends JFrame implements ActionListener{
             setVisible(true);
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         }
-        public void actionPerformed(ActionEvent a){    // 按钮事件监听
+        public void actionPerformed(ActionEvent a){    // 按钮事件监听[
             if(a.getActionCommand().equals("管理员")){
                 new ManagerLogin();
             }

@@ -67,7 +67,7 @@ public class UserWindows extends JFrame implements ActionListener{
                 new QuerTrain();
             }
             if(a.getActionCommand().equals("订票")){
-                new About();
+                new ReserveTicket();
             }
             if(a.getActionCommand().equals("查看已购车票")){
                 new QuerPurchasedTicket();
